@@ -25,11 +25,11 @@ namespace Break_out_session_week_3
             double max = Math.Max(testScore1, Math.Max(testScore2, Math.Max(testScore3, Math.Max(testScore4, testScore5))));
 
             //Uncurved Percentages
-            double uncurved1 = 100 * (testScore1 / max);
-            double uncurved2 = 100 * (testScore2 / max);
-            double uncurved3 = 100 * (testScore3 / max);
-            double uncurved4 = 100 * (testScore4 / max);
-            double uncurved5 = 100 * (testScore5 / max);
+            double uncurved1 = 100 * (testScore1 / testPoints);
+            double uncurved2 = 100 * (testScore2 / testPoints);
+            double uncurved3 = 100 * (testScore3 / testPoints);
+            double uncurved4 = 100 * (testScore4 / testPoints);
+            double uncurved5 = 100 * (testScore5 / testPoints);
 
             //Curved Percentagees
             double curved1 = 100 * (testScore1 / max);
